@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Merlanza Rizki</title>
+    <link rel="stylesheet" href="merlanza.css">
+</head>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon"></span>
+                <span class="logo-text" style="font-family: Arial, Helvetica, sans-serif;">Portofolio</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-photo">
+                    <img src="merlanfoto.jpeg" alt="Profile Photo" id="profileImg">
+                    <div class="photo-border"></div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, Saya</span>
+                    <span style="height: 180px;"> 
+                        <span class="name" id="typedName"></span>
+                        <span class="cursor">|</span>
+                    </span>
+                </h1>
+                <p class="hero-subtitle">Web Development</p>
+                <p class="hero-description">
+                    Membuat pengalaman digital yang menakjubkan dengan kode yang elegan
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card" id="floatingCard1">HTML</div>
+                <div class="floating-card" id="floatingCard2">CSS</div>
+                <div class="floating-card" id="floatingCard3">JavaScript</div>
+                <div class="floating-card" id="floatingCard4">Bootstrap</div>
+                <div class="floating-card" id="floatingCard5">jQuery</div>
+                <div class="floating-card" id="floatingCard6">PHP</div>
+                <div class="floating-card" id="floatingCard7">MySQL</div>
+                <div class="floating-card" id="floatingCard8">Git</div>
+                <div class="floating-card" id="floatingCard9">Arduino</div>
+                <div class="floating-card" id="floatingCard10">Linux</div>
+                <div class="floating-card" id="floatingCard11">Elektro</div>
+                <div class="floating-card" id="floatingCard12">Jaringan</div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder-static">
+                            <img src="merlanfoto.jpeg" class="placeholder-icon" alt="Profile Photo" id="profileImg" width="280px" style="border-radius: 100%;">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Developer</h3>
+                    <p>
+                        Saya adalah seorang developer pemula yang bersemangat untuk 
+                        terus belajar. Setiap proyek adalah kesempatan 
+                        bagi saya untuk mengasah keterampilan dan memahami dunia pengembangan 
+                        web lebih dalam.
+                    </p>
+                    <p>
+                        Dengan pengalaman dalam HTML, CSS, dan JavaScript, saya selalu 
+                        berusaha untuk belajar teknologi baru dan mengasah kemampuan saya.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="6">0</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="1">0</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="6">0</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skills will be dynamically added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projek Terbaru</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mari Berkolaborasi!</h3>
+                    <p>Punya proyek menarik? Mari kita wujudkan bersama!</p>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="icon">📧</span>
+                            <span>merlanzarizki@apps.ipb.ac.id</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📱</span>
+                            <span>+62 821 9821 4950</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon">📍</span>
+                            <span>Bogor, Jawa Barat, Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/galaxyydestroyer" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/merlanza-rizki-a16297324/" class="social-link">LinkedIn</a>
+                        <a href="https://www.instagram.com/merlanzarizki?igsh=MTlzejZuYW5zNm43ag==" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio Merlanza.</p>
+        </div>
+    </footer>
+
+    <script src="merlanza.js"></script>
+</body>
+</html>
